@@ -1,0 +1,15 @@
+{
+  "extends": "./package.json",
+  "targets": {
+    "default": {
+      "distDir": "docs",
+      "publicUrl": "./",
+      "includeNodeModules": true,
+      "outputFormat": "esmodule",
+      "sourceMap": false,
+      "engines": {
+        "browsers": ["> 0.5%", "last 2 versions", "not dead"]
+      }
+    }
+  }
+}
